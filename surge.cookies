@@ -2,7 +2,7 @@
 #!desc=iOS Cookies 模块配置
 [MITM]
 [MITM]
-hostname = %APPEND% www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, www.duokan.com, *.bilibili.com, api.everphoto.cn, api.dushu.io, www.maomicd.com, i.meituan.com, music.163.com, user.qunar.com, *.smzdm.com, *.v2ex.com, user-api-prd-mx.wandafilm.com, mobwsa.ximalaya.com
+hostname = %APPEND% www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, www.duokan.com, *.bilibili.com, api.everphoto.cn, api.dushu.io, www.maomicd.com, i.meituan.com, music.163.com, user.qunar.com, *.smzdm.com, *.v2ex.com, user-api-prd-mx.wandafilm.com, mobwsa.ximalaya.com, m.ximalaya.com, h5.ele.me, draw.jdfcloud.com
 [Script]
 吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 Bili漫画Cookie = type=http-request,pattern=^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
@@ -18,3 +18,8 @@ http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubuserc
 http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js, tag=V2ex
 http-request ^https:\/\/user-api-prd-mx\.wandafilm\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js, tag=万达电影
 http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js,tag=喜马拉雅
+http-request https://m.ximalaya.com/wechat/ script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js, tag=微信喜马拉雅
+http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js, tag=饿了么-打卡领红包
+http-request http:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/sign\/signin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家
+http-request http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家
+http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,enable=false, tag=微信小程序 来客有礼
