@@ -2,7 +2,7 @@
 #!desc=iOS Tasks&Cookies 模块配置
 # Task&Cookies模块配置
 [MITM]
-hostname = %APPEND% www.52pojie.cn ms.jr.jd.com, me-api.jd.com, api.m.jd.com passport.biligame.com
+hostname = %APPEND% www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, www.duokan.com, *.bilibili.com
 
 [Script]
 吾爱破解 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
@@ -10,3 +10,4 @@ hostname = %APPEND% www.52pojie.cn ms.jr.jd.com, me-api.jd.com, api.m.jd.com pas
 哔哩哔哩漫画= type=cron,cronexp="2 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 B站银瓜子转硬币 = type=cron,cronexp="3 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 会话切换 = type=cron,cronexp="0 12 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js
+多看阅读= type=cron,cronexp="0 0-23/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js
