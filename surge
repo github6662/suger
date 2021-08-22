@@ -2,7 +2,7 @@
 #!desc=iOS Tasks&Cookies 模块配置
 # Task&Cookies模块配置
 [MITM]
-hostname = %APPEND% www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, www.duokan.com, *.bilibili.com, api.everphoto.cn, api.dushu.io, www.maomicd.com, i.meituan.com, music.163.com, user.qunar.com, *.smzdm.com, *.v2ex.com, user-api-prd-mx.wandafilm.com, mobwsa.ximalaya.com
+hostname = %APPEND% www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, www.duokan.com, *.bilibili.com, api.everphoto.cn, api.dushu.io, www.maomicd.com, i.meituan.com, music.163.com, user.qunar.com, *.smzdm.com, *.v2ex.com, user-api-prd-mx.wandafilm.com, mobwsa.ximalaya.com, m.ximalaya.com, h5.ele.me, draw.jdfcloud.com
 [Script]
 吾爱破解 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 京东= type=cron,cronexp="1 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -20,3 +20,8 @@ B站银瓜子转硬币 = type=cron,cronexp="3 2 * * *",wake-system=1,timeout=360
 V2EX = type=cron,cronexp="11 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js
 万达电影 = type=cron,cronexp="12 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js
 喜马拉雅 = type=cron,cronexp="13 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js
+微信小程序-喜马拉雅 = type=cron,cronexp="14 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js
+饿了么-打卡领红包 = type=cron,cronexp="15 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/github6662/suger/main/elemCheckIn.js
+饿了么 = type=cron,cronexp="16 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
+电视家 = type=cron,cronexp="17 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/dianshijia.js
+来客有礼 = type=cron,cronexp="18 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/lkyl.js
