@@ -9,7 +9,7 @@ hostname = %APPEND% www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, p
 哔哩哔哩漫画= type=cron,cronexp="2 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 B站银瓜子转硬币 = type=cron,cronexp="3 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 会话切换 = type=cron,cronexp="0 12 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js
-多看阅读= type=cron,cronexp="0 0-23/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js
+多看阅读= type=cron,cronexp="40 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js
 时光相册= type=cron,cronexp="4 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js
 樊登读书 = type=cron,cronexp="5 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js
 猫咪音乐 = type=cron,cronexp="6 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/maomicd/maomicd.js
