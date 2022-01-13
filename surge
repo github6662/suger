@@ -47,10 +47,10 @@ V2EX = type=cron,cronexp="11 2 * * *",wake-system=1,timeout=3600,script-path=htt
 中国电信= type=cron,cronexp="0 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 西梅= type=cron,cronexp="20 9 * * *",wake-system=1,timeout=3600,script-path=https://ghproxy.com/https://raw.githubusercontent.com/age174/-/main/ximei.js
 活动-长牛来了= type=cron,cronexp="3,30 16 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js
-文创阅读小程序= type=cron,cronexp="10 9-22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/wcxcx.js
-悦趣阅读= type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/yqzh.js
-葫芦音乐=  type=cron,cronexp="0,30 8-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/hlyy.js
-微客众智=  type=cron,cronexp="5,35 9-22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/wkzz.js
-中青看点极速版=  type=cron,cronexp="15/30 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-中青阅读=  type=cron,cronexp="10 1-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/Youth_AutoRead.js
-中青看看赚=  type=cron,cronexp="30 6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
+#文创阅读小程序= type=cron,cronexp="10 9-22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/wcxcx.js
+#悦趣阅读= type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/yqzh.js
+#葫芦音乐=  type=cron,cronexp="0,30 8-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/hlyy.js
+#微客众智=  type=cron,cronexp="5,35 9-22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/age174/-/main/wkzz.js
+#中青看点极速版=  type=cron,cronexp="15/30 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
+#中青阅读=  type=cron,cronexp="10 1-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/Youth_AutoRead.js
+#中青看看赚=  type=cron,cronexp="30 6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
