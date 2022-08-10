@@ -2,6 +2,7 @@
 #!desc=抓包信息面板模块!对除以下主机名以外的所有主机名执行MitM。
 [MITM]
 hostname = *
+
 [Panel]
 capture = title = "HTTP Capture", content = "DISABLE", icon = "doc.text.magnifyingglass", icon-color = "FF6D1F", script-name = HTTP-Capture, update-interval = 1
 
