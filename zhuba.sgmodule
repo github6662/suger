@@ -1,8 +1,8 @@
 #!name=Panels
 #!desc=抓包信息面板模块
+
 [MITM]
 hostname = *, -*.mzstatic.com, -*.icloud.com, -*.apple.com, -www.google.cn, -www.firefox.com.cn, -api.abema.io, -mesu.apple.com, -m.client.10010.com, -*.amemv.com, -testflight.apple.com, -me-api.jd.com, -*.acfun.cn, -kd.youth.cn, -kandian.wkandian.com, -ios.baertt.com, -minapp.xqrobot.net, -mp.weixin.qq.com, -app.hubonews.com, -ap?.bilibili.com, -pan.baidu.com, -biz.caiyunapp.com, -api.m.jd.com, -api.dushu.io, -*.uve.weibo.com, -mapi.weibo.com, -api.weibo.cn, -passport.biligame.com, -www.52pojie.cn, -ranlv.lvfacn.com, -*.amemv.com, -*.snssdk.com, -act.10010.com, -*.toutiaoapi.com, -nebula.kuaishou.com, -m-bean.kaola.com, -passport.suning.com, -luckman.suning.com, -sign.suning.com, -gameapi.suning.com, -draw.jdfcloud.com, -c.tieba.baidu.com, -h5.ele.me, -mobwsa.ximalaya.com, -user-api-prd-mx.wandafilm.com, -*.v2ex.com, -*.smzdm.com, -user.qunar.com, -music.163.com, -i.meituan.com, -www.maomicd.com, -www.duokan.com, -api.everphoto.cn, -*.bilibili.com, -passport.biligame.com, -*.acfun.cn
-hostname-disabled = -*.apple.com, -*.icloud.com, -*.mzstatic.com, *, *.bilibili.com
 
 [Panel]
 capture = title = "HTTP Capture", content = "DISABLE", icon = "doc.text.magnifyingglass", icon-color = "FF6D1F", script-name = HTTP-Capture, update-interval = 1
