@@ -17,11 +17,9 @@ V2EX = type=cron,cronexp="11 2 * * *",wake-system=1,timeout=3600,script-path=htt
 百度贴吧(客户端) = type=cron,cronexp="22 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 网易考拉 = type=cron,cronexp="23 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js
 百度签到(网页) = type=cron,cronexp="24 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
-天天挖矿 = type=cron,cronexp="0 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js
 今日头条极速版 = type=cron,cronexp="5,35 8-21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jrtt.js
-腾讯自选股 = type=cron,cronexp="15 15 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/github6662/suger/main/%E8%85%BE%E8%AE%AF%E8%87%AA%E9%80%89%E8%82%A1
 抖音极速版 = type=cron,cronexp="*/11 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
 巴哈姆特签到= type=cron,cronexp="0 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js
 彩云天气= type=cron,cronexp="0 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
 中国电信= type=cron,cronexp="0 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
-活动-长牛来了= type=cron,cronexp="3,30 16 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js
+
