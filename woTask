@@ -15,9 +15,7 @@ hostname = %APPEND% www.52pojie.cn, draw.jdfcloud.com, ms.jr.jd.com, me-api.jd.c
 V2EX = type=cron,cronexp="11 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js
 苏宁易购 = type=cron,cronexp="21 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js
 百度贴吧(客户端) = type=cron,cronexp="22 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
-网易考拉 = type=cron,cronexp="23 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js
 百度签到(网页) = type=cron,cronexp="24 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
-今日头条极速版 = type=cron,cronexp="5,35 8-21 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jrtt.js
 抖音极速版 = type=cron,cronexp="*/11 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
 巴哈姆特签到= type=cron,cronexp="0 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js
 彩云天气= type=cron,cronexp="0 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
