@@ -16,8 +16,6 @@ V2EX = type=cron,cronexp="11 2 * * *",wake-system=1,timeout=3600,script-path=htt
 苏宁易购 = type=cron,cronexp="21 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js
 百度贴吧(客户端) = type=cron,cronexp="22 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 百度签到(网页) = type=cron,cronexp="24 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
-
 巴哈姆特签到= type=cron,cronexp="0 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js
 
-中国电信= type=cron,cronexp="0 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 
